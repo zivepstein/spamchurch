@@ -2845,7 +2845,7 @@
 		-webkit-transform: translateY(1rem);
 		-ms-transform: translateY(1rem);
 		transform: translateY(1rem);
-		opacity: 0;
+		opacity: 100;
 	}
 
 	.banner.onload-content-fade-down .content {
@@ -8429,4 +8429,10 @@
 
 article{
 	margin-left: 3%;
+}
+
+h2{
+	font-family: souvenir;
+	text-transform: uppercase;
+	color: #E5DB1F;
 }
