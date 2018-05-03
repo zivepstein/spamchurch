@@ -1,5 +1,9 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Helvetica:300,300i,400,400i,900,900i");
+@font-face {
+    font-family: souvenir;
+    src: url("souvenir-bold.otf") format("opentype");
+}
 
 /*
 	Story by HTML5 UP
@@ -8419,6 +8423,10 @@
 	z-index: 999999;
 	transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
+	font-family: souvenir;
+	fill: #E5DB1F;
 	}
 
-
+article{
+	margin-left: 3%;
+}
